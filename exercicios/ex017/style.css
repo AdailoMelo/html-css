@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    font-family: serif; /* Fonte genérica com serifa */
+    background-image: linear-gradient(to right, #2A8C82, #41BFB3);
+}
+
+h1, h2 {
+    color: #275950;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+main {
+    background-color: #ffffffca;
+    width: 1450px;
+    height: 300px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 50px;
+}

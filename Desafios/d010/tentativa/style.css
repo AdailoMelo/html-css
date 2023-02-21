@@ -1,0 +1,71 @@
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+    
+}
+
+header {
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(to bottom, #3BD480, #1A5C38);
+    color: white;
+}
+
+header > p {
+    color: rgba(255, 255, 255, 0.69);
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+main {
+    background-color: white;
+    width: 1100px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.052);
+    margin: auto;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf);
+}
+
+main > h1, h2 {
+    font-family: 'Android';
+    padding: auto;
+    color: #1E5F3C;
+}
+
+img {
+    margin-left: 10em;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #3bd4806f, rgba(255, 255, 255, 0.319));
+}
+
+.video > iframe {
+    background-color: #1A5C38;
+    margin: auto;
+}
+
+span {
+    color: white;
+}
+
+.lista {
+    background-color: #C5EBD6;
+}
+.titulo_lista {
+    background-color: #2FA866;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.aprenda {
+    text-decoration: underline;
+}
