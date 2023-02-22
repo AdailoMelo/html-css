@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamanhos de fundos</title>
+    <title>Vínculo de fundos</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
-            background-position: center center;
-            background-image: url(imagens/wallpaper002.jpg);
-            background-repeat: no-repeat;
+
+            /*                  SHORTHAND 
+                background: color image repeat attachment 
+            */
+            background: black url(imagens/wallpaper002.jpg) no-repeat fixed; 
             background-size: cover;
+            background-position: center center;
         }
 
         main {
             background-color: white;
             border-radius: 15px;
             border: 2px dashed blue;
-            width: 400px;
+            max-width: 400px;
             margin: auto;
             padding: 10px;
         }
