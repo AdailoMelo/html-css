@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/* TABLET */
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    #celular {display: none;}
+    #tablet {
+        display: block;
+        margin: auto;
+        margin-top: 20vh;   
+    }
+    #pc {display: none;}
+    #tv {display: none;}
+    #impressora {display: none;}
+}
+/* PC */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background: url(../imagens/back-pc.jpg) center center no-repeat;
+        background-size: cover;
+    }
+
+    #celular {display: none;}
+    #tablet {display: none;}
+    #pc {
+        display: block;
+        display: block;
+        margin: auto;
+        margin-top: 20vh;
+    }
+    #tv {display: none;}
+    #impressora {display: none;}
+}
+/* TV */
+@media screen and (min-width: 1201px) {
+    body {
+        background: url(../imagens/back-tv.jpg) center center no-repeat;
+        background-size: cover;
+    }
+
+    #celular {display: none;}
+    #tablet {display: none;}
+    #pc {display: none;}
+    #tv {
+        display: block;
+        margin: auto;
+        margin-top: 20vh;
+    }
+    #impressora {display: none;}
+}
+/* IMPRESSORA */
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body {
+        background-image: url(../imagens/back-print.jpg);
+    }
+
+    #celular {display: none;}
+    #tablet {display: none;}
+    #pc {display: none;}
+    #tv {display: none;}
+    #impressora {
+        display: block;
+    }
+}
